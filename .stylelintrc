@@ -1,7 +1,9 @@
 {
-    "extends": "stylelint-config-standard",
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-prettier"
+    ],
     "rules": {
-        "indentation": 4,
         "string-quotes": "single",
         "no-duplicate-selectors": true,
         "color-hex-case": "lower",
@@ -27,7 +29,6 @@
         "at-rule-no-vendor-prefix": true,
         "rule-empty-line-before": "always",
         "selector-no-vendor-prefix": true,
-        "selector-no-type": true,
         "media-feature-range-operator-space-before": "always",
         "media-feature-range-operator-space-after": "always",
         "media-feature-parentheses-space-inside": "always",
