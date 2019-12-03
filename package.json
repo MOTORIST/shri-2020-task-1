@@ -18,8 +18,16 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'",
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "**/*.scss": [
+      "prettier --write",
+      "stylelint --syntax scss",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
@@ -28,6 +36,10 @@
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "husky": "^3.1.0"
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.0",
+    "stylelint-config-standard": "^19.0.0"
   }
 }
