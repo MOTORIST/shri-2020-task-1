@@ -1,2 +1,5 @@
-// eslint-disable-next-line no-console
-console.log('Run');
+import loadData from './loadData';
+
+(async () => {
+  await loadData();
+})();
