@@ -1,0 +1,8 @@
+{
+  "name": "shri-2020",
+  "version": "1.0.0",
+  "description": "Shri Moscow 2020",
+  "main": "index.js",
+  "author": "Gerasin Ivan <webartmotor@gmail.com>",
+  "license": "MIT"
+}
