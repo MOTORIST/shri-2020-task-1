@@ -4,5 +4,27 @@
   "description": "Shri Moscow 2020",
   "main": "index.js",
   "author": "Gerasin Ivan <webartmotor@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./commitizen.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "commitizen": "^4.0.3",
+    "cz-customizable": "^6.2.0",
+    "husky": "^3.1.0"
+  }
 }
