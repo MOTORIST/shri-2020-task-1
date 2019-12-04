@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+}
+
+@import '_m-columns/grid_m-columns_10.scss';
+@import '_m-columns/grid_m-columns_12.scss';
+
+@import '_col-gap/grid_col-gap_two-thirds.scss';
+@import '_col-gap/grid_col-gap_half.scss';
+@import '_col-gap/grid_col-gap_full.scss';
+
+@import '_row-gap/grid_row-gap_half.scss';
+@import '_row-gap/grid_row-gap_full.scss';
+
+@import '__fraction/fraction.scss';
