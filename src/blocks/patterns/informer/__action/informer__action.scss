@@ -1,0 +1,12 @@
+.informer__action {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@import '_distribute/informer__action_distribute_default.scss';
+@import '_distribute/informer__action_distribute_between.scss';
+@import '_distribute/informer__action_distribute_center.scss';
+
+@import '_space-a/informer__action_space-a_xl.scss';
+@import '_space-a/informer__action_space-a_xxl.scss';
