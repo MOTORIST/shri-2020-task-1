@@ -1,0 +1,10 @@
+.card {
+  position: relative;
+}
+
+@import '_border/card_border_all.scss';
+
+@import '_view/card_view_default.scss';
+
+@import '__content/card__content.scss';
+@import '__footer/card__footer.scss';

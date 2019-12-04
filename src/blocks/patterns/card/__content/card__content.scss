@@ -1,0 +1,12 @@
+.card__content {
+  position: relative;
+}
+
+@import '_distribute/card__content_distribute_center.scss';
+
+@import '_vertical-align/card__content_vertical-align_center.scss';
+
+@import '_space-a/card__content_space-a_m.scss';
+@import '_space-a/card__content_space-a_l.scss';
+@import '_space-a/card__content_space-a_xl.scss';
+@import '_space-a/card__content_space-a_xxxl.scss';
