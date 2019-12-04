@@ -1,0 +1,17 @@
+.layout__container {
+  @media (max-width: $screen-l) {
+    padding-right: var(--gap);
+    padding-left: var(--gap);
+  }
+}
+
+@import '_align/layout__container_align_center.scss';
+
+@import '_size/layout__container_size_s.scss';
+@import '_size/layout__container_size_m.scss';
+
+@import '_space-v/layout__container_space-v_xxxxl.scss';
+@import '_space-v/layout__container_space-v_xxxxxl.scss';
+
+@import '_indent-b/layout__container_indent-b_xxl.scss';
+@import '_indent-b/layout__container_indent-b_xxxxl.scss';
