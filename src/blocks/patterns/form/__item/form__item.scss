@@ -1,0 +1,39 @@
+.form__item {
+  display: flex;
+}
+
+@import '_border/form__item_border_bottom.scss';
+
+@import '_distribute/form__item_distribute_between.scss';
+
+@import '_vertical-align/form__item_vertical-align_center.scss';
+
+@import '_indent-b/form__item_indent-b_xxs.scss';
+@import '_indent-b/form__item_indent-b_xxxs.scss';
+@import '_indent-b/form__item_indent-b_s.scss';
+@import '_indent-b/form__item_indent-b_m.scss';
+@import '_indent-b/form__item_indent-b_l.scss';
+@import '_indent-b/form__item_indent-b_xl.scss';
+@import '_indent-b/form__item_indent-b_xxl.scss';
+@import '_indent-b/form__item_indent-b_xxxl.scss';
+@import '_indent-b/form__item_indent-b_xxxxl.scss';
+
+@import '_space-h/form__item_space-h_xxxs.scss';
+@import '_space-h/form__item_space-h_xxs.scss';
+@import '_space-h/form__item_space-h_s.scss';
+@import '_space-h/form__item_space-h_m.scss';
+@import '_space-h/form__item_space-h_l.scss';
+@import '_space-h/form__item_space-h_xl.scss';
+@import '_space-h/form__item_space-h_xxl.scss';
+@import '_space-h/form__item_space-h_xxxl.scss';
+@import '_space-h/form__item_space-h_xxxxl.scss';
+
+@import '_space-v/form__item_space-v_xxxs.scss';
+@import '_space-v/form__item_space-v_xxs.scss';
+@import '_space-v/form__item_space-v_s.scss';
+@import '_space-v/form__item_space-v_m.scss';
+@import '_space-v/form__item_space-v_l.scss';
+@import '_space-v/form__item_space-v_xl.scss';
+@import '_space-v/form__item_space-v_xxl.scss';
+@import '_space-v/form__item_space-v_xxxl.scss';
+@import '_space-v/form__item_space-v_xxxxl.scss';
