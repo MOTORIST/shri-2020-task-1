@@ -1,0 +1,7 @@
+.list__item_border_top {
+  border-top: var(--border-size) solid var(--border-color);
+
+  &:last-child {
+    border-top: none;
+  }
+}
