@@ -1,0 +1,7 @@
+.theme_gap_small {
+  --gap: var(--space-xl);
+
+  @media (max-width: $screen-m) {
+    --gap: var(--space-s);
+  }
+}
