@@ -1,0 +1,7 @@
+.header {
+  padding-top: var(--space-xxxl);
+  padding-bottom: var(--space-xxxl);
+}
+
+@import '__content/header__content.scss';
+@import '__logo/header__logo.scss';
