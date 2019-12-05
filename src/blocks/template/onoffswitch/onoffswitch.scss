@@ -1,0 +1,12 @@
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--border-color);
+  cursor: pointer;
+}
+
+@import '_checked/onoffswitch_checked.scss';
+
+@import '__button/onoffswitch__button.scss';
