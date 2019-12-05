@@ -1,0 +1,8 @@
+.event {
+  min-height: 400px;
+}
+
+@import '__preview/event__preview.scss';
+@import '__content/event__content.scss';
+@import '__speaker/event__speaker.scss';
+@import '__title/event__title.scss';
