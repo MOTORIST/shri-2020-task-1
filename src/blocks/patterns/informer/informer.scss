@@ -1,5 +1,7 @@
 .informer {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @import '_border/informer_border_all.scss';
