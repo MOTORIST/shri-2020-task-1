@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--bg-color-accent);
+  cursor: pointer;
+  width: 200px;
+}
+
+@import '_size/button_size_s.scss';
+@import '_size/button_size_m.scss';
+@import '_size/button_size_l.scss';
+@import '_size/button_size_xl.scss';
+@import '_size/button_size_xxl.scss';
+
+@import '_width/button_width_full.scss';
