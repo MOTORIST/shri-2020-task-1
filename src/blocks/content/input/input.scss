@@ -1,0 +1,9 @@
+.input {
+  border: var(--border-size) solid var(--border-color);
+}
+
+@import '_size/input_size_s.scss';
+@import '_size/input_size_m.scss';
+@import '_size/input_size_l.scss';
+@import '_size/input_size_xl.scss';
+@import '_size/input_size_xxl.scss';
