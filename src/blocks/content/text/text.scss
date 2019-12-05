@@ -1,0 +1,14 @@
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@import '_align/text_align_center.scss';
+
+@import '_size/text_size_s.scss';
+@import '_size/text_size_m.scss';
+@import '_size/text_size_l.scss';
+@import '_size/text_size_xl.scss';
+@import '_size/text_size_xxl.scss';
+
+@import '__word/text__word.scss';

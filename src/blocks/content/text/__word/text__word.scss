@@ -1,0 +1,10 @@
+.text__word {
+  background-color: var(--text-color-primary);
+  height: var(--word-height);
+  margin-top: var(--word-indent-top);
+  margin-bottom: var(--word-indent-bottom);
+}
+
+@import '_width/text__word_width_s.scss';
+@import '_width/text__word_width_m.scss';
+@import '_width/text__word_width_l.scss';

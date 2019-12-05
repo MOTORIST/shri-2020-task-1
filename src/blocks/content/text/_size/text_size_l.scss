@@ -1,0 +1,8 @@
+.text_size_l {
+  --word-width-s: 28px;
+  --word-width-m: 68px;
+  --word-width-l: 138px;
+  --word-height: 11px;
+  --word-indent-top: calc((var(--line-height-l) - var(--word-height)) / 2);
+  --word-indent-bottom: calc((var(--line-height-l) - var(--word-height)) / 2);
+}
