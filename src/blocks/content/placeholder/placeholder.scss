@@ -1,0 +1,6 @@
+.placeholder {
+  background-color: var(--text-color-primary);
+}
+
+@import '_size/placeholder_size_m.scss';
+@import '_view/placeholder_view_primary.scss';
