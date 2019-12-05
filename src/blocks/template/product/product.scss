@@ -1,6 +1,8 @@
 .product {
   min-height: 300px;
-  border: var(--border-size) solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @import '__image/product__image.scss';
