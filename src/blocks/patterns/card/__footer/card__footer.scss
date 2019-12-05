@@ -1,9 +1,3 @@
-.card__footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
 @import '_distribute/card__footer_distribute_between.scss';
 @import '_distribute/card__footer_distribute_center.scss';
 @import '_distribute/card__footer_distribute_right.scss';
@@ -11,3 +5,8 @@
 @import '_vertical-align/card__footer_vertical-align_top.scss';
 @import '_vertical-align/card__footer_vertical-align_center.scss';
 @import '_vertical-align/card__footer_vertical-align_bottom.scss';
+
+@import '_space-a/card__footer_space-a_m.scss';
+@import '_space-a/card__footer_space-a_l.scss';
+@import '_space-a/card__footer_space-a_xl.scss';
+@import '_space-a/card__footer_space-a_xxl.scss';
