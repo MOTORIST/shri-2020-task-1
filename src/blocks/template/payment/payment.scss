@@ -1,0 +1,6 @@
+.payment {
+  border: var(--border-size) solid var(--border-color);
+}
+
+@import '__content/payment__content.scss';
+@import '__footer/payment__footer.scss';

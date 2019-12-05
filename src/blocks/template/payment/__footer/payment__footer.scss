@@ -1,0 +1,6 @@
+.payment__footer {
+  & .form__control {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
