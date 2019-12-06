@@ -11,4 +11,14 @@
 @import '_size/text_size_xl.scss';
 @import '_size/text_size_xxl.scss';
 
+@import '_type/text_type_h1.scss';
+@import '_type/text_type_h2.scss';
+@import '_type/text_type_h3.scss';
+@import '_type/text_type_p.scss';
+
+@import '_view/text_view_primary.scss';
+@import '_view/text_view_secondary.scss';
+@import '_view/text_view_ghost.scss';
+@import '_view/text_view_link.scss';
+
 @import '__word/text__word.scss';
