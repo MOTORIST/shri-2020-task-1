@@ -4,4 +4,9 @@
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $screen-l) {
+    padding-right: var(--gap);
+    padding-left: var(--gap);
+  }
 }
