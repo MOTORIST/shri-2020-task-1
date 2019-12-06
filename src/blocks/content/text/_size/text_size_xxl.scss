@@ -3,6 +3,6 @@
   --word-width-m: 88px;
   --word-width-l: 184px;
   --word-height: 16px;
-  --word-indent-top: calc((var(--line-height-xxl) - var(--word-height)) / 2);
-  --word-indent-bottom: calc((var(--line-height-xxl) - var(--word-height)) / 2);
+  --word-indent-top: 8px;
+  --word-indent-bottom: 14px;
 }
