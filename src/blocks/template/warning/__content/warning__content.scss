@@ -1,6 +1,7 @@
 .warning__content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 
   & .placeholder {
     margin-top: var(--space-m);
