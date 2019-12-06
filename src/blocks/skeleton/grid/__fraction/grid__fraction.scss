@@ -1,3 +1,15 @@
+.grid__fraction {
+  @media (max-width: $screen-m) {
+    .grid_m-columns_10 & {
+      grid-column: span 10;
+    }
+
+    .grid_m-columns_12 & {
+      grid-column: span 12;
+    }
+  }
+}
+
 @import '_m-col/grid__fraction_m-col_2.scss';
 @import '_m-col/grid__fraction_m-col_3.scss';
 @import '_m-col/grid__fraction_m-col_4.scss';
