@@ -3,4 +3,14 @@
     display: flex;
     justify-content: flex-end;
   }
+
+  @media (max-width: $screen-s) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .form__label {
+      width: initial;
+    }
+  }
 }

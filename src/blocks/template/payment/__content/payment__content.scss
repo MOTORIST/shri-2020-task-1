@@ -1,5 +1,11 @@
 .payment__content {
-  & .form__item:last-child {
+  .form__item:last-child {
     margin-bottom: 0;
+  }
+
+  @media (max-width: $screen-s) {
+    .form__item {
+      display: block;
+    }
   }
 }
