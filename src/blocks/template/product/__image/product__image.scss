@@ -1,3 +1,7 @@
 .product__image {
   height: 160px;
+
+  .image {
+    border-color: var(--bg-color-default);
+  }
 }
