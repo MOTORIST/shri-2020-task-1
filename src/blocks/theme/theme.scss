@@ -1,3 +1,7 @@
+.theme {
+  background-color: var(--bg-color-default);
+}
+
 @import '_color/theme_color_project-default.scss';
 @import '_color/theme_color_project-brand.scss';
 @import '_color/theme_color_project-inverse.scss';
