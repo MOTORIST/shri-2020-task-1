@@ -5,4 +5,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: $screen-l) {
+    padding-right: var(--gap);
+    padding-left: var(--gap);
+  }
 }
