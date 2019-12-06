@@ -13,6 +13,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "arrow-parens": ["error", "as-needed"]
   }
 }
