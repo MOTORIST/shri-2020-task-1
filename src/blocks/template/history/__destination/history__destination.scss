@@ -1,0 +1,6 @@
+.history__destination {
+  @media (max-width: $screen-s) {
+    flex: 1;
+    justify-content: space-between;
+  }
+}

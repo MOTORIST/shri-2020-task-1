@@ -1,4 +1,8 @@
 .history__show {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: $screen-s) {
+    flex-direction: column;
+  }
 }
