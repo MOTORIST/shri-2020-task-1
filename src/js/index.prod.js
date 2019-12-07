@@ -1,3 +1,3 @@
 import initBlock from './initBlocks';
 
-document.addEventListener('DOMContentLoaded', initBlock());
+document.addEventListener('DOMContentLoaded', initBlock);
