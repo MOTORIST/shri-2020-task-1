@@ -1,10 +1,5 @@
 .layout__container {
   background-color: var(--bg-color-default);
-
-  @media (max-width: $screen-l) {
-    padding-right: var(--gap);
-    padding-left: var(--gap);
-  }
 }
 
 @import '_align/layout__container_align_center.scss';
