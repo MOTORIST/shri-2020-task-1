@@ -1,0 +1,11 @@
+TypeError: Cannot read property 'addEventListener' of null
+    at Module.eval (webpack-internal:///./static/MOTORIST/script.js:1:1341)
+    at o (webpack-internal:///./static/MOTORIST/script.js:1:110)
+    at Object.eval (webpack-internal:///./static/MOTORIST/script.js:1:929)
+    at o (webpack-internal:///./static/MOTORIST/script.js:1:110)
+    at eval (webpack-internal:///./static/MOTORIST/script.js:1:902)
+    at eval (webpack-internal:///./static/MOTORIST/script.js:1:911)
+    at Object../static/MOTORIST/script.js (file:///opt/buildagent/work/e163812401825360/screenshots/static/MOTORIST/build/script.js:96:1)
+    at __webpack_require__ (file:///opt/buildagent/work/e163812401825360/screenshots/static/MOTORIST/build/script.js:20:30)
+    at Object.1 (file:///opt/buildagent/work/e163812401825360/screenshots/static/MOTORIST/build/script.js:107:18)
+    at __webpack_require__ (file:///opt/buildagent/work/e163812401825360/screenshots/static/MOTORIST/build/script.js:20:30)
