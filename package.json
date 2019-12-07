@@ -6,7 +6,7 @@
   "author": "Gerasin Ivan <webartmotor@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "yarn build && webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "commit": "git-cz"
   },
